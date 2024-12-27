@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button3 = new Button();
             buttonClients_AAF = new Button();
             buttonApartments_AAF = new Button();
             buttonInfo_AAF = new Button();
@@ -40,24 +39,12 @@
             // panel1
             // 
             panel1.BackgroundImage = Properties.Resources.backpanel_AAF;
-            panel1.Controls.Add(button3);
             panel1.Controls.Add(buttonClients_AAF);
             panel1.Controls.Add(buttonApartments_AAF);
             panel1.Location = new Point(22, 26);
             panel1.Name = "panel1";
             panel1.Size = new Size(288, 436);
             panel1.TabIndex = 0;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.MediumSlateBlue;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Location = new Point(38, 215);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 50);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = false;
             // 
             // buttonClients_AAF
             // 
@@ -134,7 +121,6 @@
         private Panel panel1;
         private Button buttonApartments_AAF;
         private Button buttonInfo_AAF;
-        private Button button3;
         private Button buttonClients_AAF;
         private Label labelMain_AAF;
     }
